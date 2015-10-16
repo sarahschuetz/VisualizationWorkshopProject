@@ -36,7 +36,7 @@ public class followNavMesh : MonoBehaviour {
 		
 		this.distance = Vector3.Distance(target.position, transform.position);
 
-		Debug.Log(this.distance);
+		// Debug.Log(this.distance);
 		
 		if(this.distance <= this.followDistance) {
 
@@ -60,14 +60,16 @@ public class followNavMesh : MonoBehaviour {
 	}
 	
 	void OnEnable() {
-		EventManager.startListening("startMoving", this.listener);
+		EventManager.startListening("startFollowMoving", this.listener);
 	}
 	
 	void OnDisable() {
-		EventManager.stopListening("startMoving", this.listener);
+		EventManager.stopListening("startFollowMoving", this.listener);
 	}
 	
 	void startMoving() {
+
+		Debug.Log("START MOVING");
 		this.following = true;;
 	}
 }

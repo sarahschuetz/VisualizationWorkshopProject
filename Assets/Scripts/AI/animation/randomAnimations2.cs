@@ -2,38 +2,31 @@
 using UnityEngine.Events;
 using System.Collections;
 
-public class handleBearAnimations : MonoBehaviour {
+public class randomAnimations2 : MonoBehaviour {
 
-	private Animator bearAnimator;
+	[System.Serializable]
+	public class animationInfo {
 
+		public string name;
+		public AnimationClip clip;
+		public float likelyhood;
+	}
+
+	// all animation which should be switched randomly
+	public animationInfo[] randomAnimationsArray;
+
+	private Animator animator;
 	private bool following = false; 
-
-	// how likely is a particular animation (between 0 and 20)
-	// when started the values of the highest possible percentage is stored here
-	public int walk = 5;
-	public int breath = 5;
-	public int smell = 5;
-	public int look = 5;
-	public int roar = 5;
-
 	private int random;
 
 	// used in Unity to compare Animations
-	// 0 = walk
-	// 1 = breath
-	// 2 = smell
-	// 3 = look
-	// 4 = roar
-	// 5 = run
-	// 6 = jump & kill
-	// 7 = Exit
+	// bear
+	// 0 = walk   1 = breath   2 = smell   3 = look   4 = roar   5 = run  7 = Exit
 	private int animationCount = 1;
 	private float waitTime = 0;
 
 	// Use this for initialization
 	IEnumerator Start () {
-
-		bearAnimator = gameObject.GetComponent<Animator>();
 
 		// correct likelyhood of animations if they sum up to over 100% and set the right animation ranges
 		this.corrAnimationLikelyhood();
@@ -43,11 +36,6 @@ public class handleBearAnimations : MonoBehaviour {
 		yield return StartCoroutine(animationLoop());
 	}
 	
-	// Update is called once per frame
-	void Update () {
-
-	}
-
 	/// <summary>
 	/// Loops the animation.
 	/// Waits until the current animation is finished and then starts next animation.
@@ -62,7 +50,8 @@ public class handleBearAnimations : MonoBehaviour {
 
 		// continue animation loop (if bear is not following player)
 		if(!this.following) {
-			yield return StartCoroutine(animationLoop());;
+			yield return StartCoroutine(animationLoop());
+
 		} else {
 			yield return StartCoroutine(followAnimation());
 		}
@@ -75,15 +64,15 @@ public class handleBearAnimations : MonoBehaviour {
 
 		yield return new WaitForSeconds (this.waitTime);
 		// assign value to animator
-		bearAnimator.SetInteger("animationCount", 4);
+		animator.SetInteger("animationCount", 4);
 
 		yield return new WaitForEndOfFrame();
 		this.setWaitTime();
 		
 		yield return new WaitForSeconds (this.waitTime);
 		// assign value to animator
-		bearAnimator.SetInteger("animationCount", 5);
-		EventManager.triggerEvent("startMoving");
+		animator.SetInteger("animationCount", 5);
+		EventManager.triggerEvent("startFollowing");
 	}
 
 	private void nextAnimation() {
@@ -95,7 +84,8 @@ public class handleBearAnimations : MonoBehaviour {
 		this.setAnimationCount();
 
 		// assign value to animator
-		bearAnimator.SetInteger("animationCount", animationCount);
+		animator.SetInteger("animationCount", animationCount);
+		Debug.Log(animationCount);
 	}
 
 	/// <summary>
@@ -103,25 +93,32 @@ public class handleBearAnimations : MonoBehaviour {
 	/// </summary>
 	private void corrAnimationLikelyhood() {
 
-		int sum = this.walk + this.breath + this.smell + this.look + this.roar;
+		float sum = 0;
+		
+		// calculate sum
+		foreach(animationInfo info in this.randomAnimationsArray) {
+			sum += info.likelyhood;
+		}
 
 		// calculate percentages
 		// int-values
-		this.breath = this.breath * 100 / sum; 
-		this.smell = this.smell * 100 / sum; 
-		this.look = this.look * 100 / sum; 
-		this.roar = this.roar * 100 / sum; 
+		foreach(animationInfo info in this.randomAnimationsArray) {
+			info.likelyhood = info.likelyhood * 100 / sum;
+		} 
 	}
 
 	/// <summary>
 	/// Sets the animation ranges.
 	/// </summary>
 	private void setAnimationRanges() {
-		
+
+		float currentHighestValue = 0;
+
 		// calculate range of animations
-		this.smell = this.breath + this.smell;
-		this.look = this.smell + this.look;
-		this.roar = this.look + this.roar;
+		foreach(animationInfo info in this.randomAnimationsArray) {
+			info.likelyhood += currentHighestValue;
+			currentHighestValue = info.likelyhood;
+		}
 	}
 
 	/// <summary>
@@ -129,16 +126,13 @@ public class handleBearAnimations : MonoBehaviour {
 	/// </summary>
 	private void setAnimationCount() {
 
-		if(this.random <= this.breath) {
-			this.animationCount = 1;
-		} else if(this.random <= this.smell) {
-			this.animationCount = 2;
-		} else if(this.random <= this.look) {
-			this.animationCount = 3;
-		} else if(this.random <= this.roar) {
-			this.animationCount = 4;
-		} else {
-			this.animationCount = 0;
+		this.animationCount = 0;
+
+		for(int i = 0; i < this.randomAnimationsArray.Length; i++) {
+
+			if(this.random > this.randomAnimationsArray[i].likelyhood) {
+				this.animationCount = i + 1;
+			}
 		}
 	}
 
@@ -147,7 +141,7 @@ public class handleBearAnimations : MonoBehaviour {
 	/// </summary>
 	private void setWaitTime() {
 
-		AnimatorClipInfo[] animationClips = bearAnimator.GetCurrentAnimatorClipInfo(0);
+		AnimatorClipInfo[] animationClips = animator.GetCurrentAnimatorClipInfo(0);
 		AnimationClip animationClip = animationClips[0].clip;
 		this.waitTime = animationClip.length;
 	}
@@ -156,6 +150,7 @@ public class handleBearAnimations : MonoBehaviour {
 	private UnityAction listener; 
 	
 	void Awake() {
+		animator = gameObject.GetComponent<Animator>();
 		this.listener = new UnityAction(startFollowing);
 	}
 	
@@ -169,6 +164,5 @@ public class handleBearAnimations : MonoBehaviour {
 	
 	void startFollowing() {
 		this.following = true;
-		this.animationCount = 5;
 	}
 }
