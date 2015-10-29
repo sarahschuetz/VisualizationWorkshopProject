@@ -48,31 +48,19 @@ public class randomAnimations : StateMachineBehaviour {
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 
 		if(!this.following) {
-
 			this.nextAnimation();
+		}
 
-		} else { // only important for bear
+		// only important for bear
+		else if(animationCount != 4) {
+			this.animationCount = 4;
+			this.animator.SetInteger("animationCount", 4);
+		} else { 
+			// assign value to animator
+			this.animator.SetInteger("animationCount", 5);
 
-			EventManager.triggerEvent("stopMoving");
-
-			if(animationCount < 4) {
-
-				this.animationCount = 4;
-				this.animator.SetInteger("animationCount", 4);
-
-			} else if(this.animationCount == 6){
-
-				// assign value to animator
-				this.animator.SetInteger("animationCount", 6);
-
-			} else { 
-				
-				// assign value to animator
-				this.animator.SetInteger("animationCount", 5);
-				
-				Debug.Log("RUN!!!!");
-				EventManager.triggerEvent("startFollowMoving");
-			}
+			Debug.Log("RUN!!!!");
+			EventManager.triggerEvent("startFollowMoving");
 		}
 	}
 
@@ -152,37 +140,25 @@ public class randomAnimations : StateMachineBehaviour {
 		}
 	}
 	
-	// EventManager -- just for bear
+	// EventManager
 	private UnityAction listener; 
-	private UnityAction killListener; 
 	
 	void Awake() {
 		this.listener = new UnityAction(startFollowing);
-		this.killListener = new UnityAction(jumpAndKill);
 	}
 	
 	void OnEnable() {
 		EventManager.startListening("startFollowing", this.listener);
-		EventManager.startListening("jumpAndKill", this.killListener);
 	}
 	
 	void OnDisable() {
 		EventManager.stopListening("startFollowing", this.listener);
-		EventManager.stopListening("jumpAndKill", this.killListener);
 	}
 	
 	void startFollowing() {
 
 		if(this.gameObject.tag == "bear") {
 			this.following = true;
-		}
-	}
-
-	void jumpAndKill() {
-		
-		if(this.gameObject.tag == "bear") {
-			Debug.Log("Start KILLing");
-			this.animationCount = 6;
 		}
 	}
 }
