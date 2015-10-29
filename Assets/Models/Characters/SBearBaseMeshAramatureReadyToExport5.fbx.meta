@@ -1,0 +1,1540 @@
+fileFormatVersion: 2
+guid: 3abfa15779cd0c1408bb6a6ed7e9da82
+timeCreated: 1443454801
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: B_foot.L
+    100004: B_foot.R
+    100006: B_foot_controller.L
+    100008: B_foot_controller.R
+    100010: B_leg.L
+    100012: B_leg.L_end
+    100014: B_leg.R
+    100016: B_leg.R_end
+    100018: B_leg_IK.L
+    100020: B_leg_IK.L_end
+    100022: B_leg_IK.R
+    100024: B_leg_IK.R_end
+    100026: B_toes.L
+    100028: B_toes.L_end
+    100030: B_toes.R
+    100032: B_toes.R_end
+    100034: B_upperleg.L
+    100036: B_upperleg.R
+    100038: Body
+    100040: ear.L
+    100042: ear.L_end
+    100044: ear.R
+    100046: ear.R_end
+    100048: Ears
+    100050: Eyes
+    100052: F_foot.L
+    100054: F_foot.R
+    100056: F_foot_controller.L
+    100058: F_foot_controller.R
+    100060: F_leg.L
+    100062: F_leg.L_end
+    100064: F_leg.R
+    100066: F_leg.R_end
+    100068: F_leg_IK.L
+    100070: F_leg_IK.L_end
+    100072: F_leg_IK.R
+    100074: F_leg_IK.R_end
+    100076: F_toes.L
+    100078: F_toes.L_end
+    100080: F_toes.R
+    100082: F_toes.R_end
+    100084: F_upperleg.L
+    100086: F_upperleg.R
+    100088: head
+    100090: lower_jaw
+    100092: Lower_teeth
+    100094: lower_teeth
+    100096: lower_teeth_end
+    100098: neck
+    100100: nose
+    100102: nose_end
+    100104: pelvis.L
+    100106: pelvis.R
+    100108: //RootNode
+    100110: scapula_1.L
+    100112: scapula_1.R
+    100114: scapula_2.L
+    100116: scapula_2.R
+    100118: spine_1
+    100120: spine_2
+    100122: spine_3
+    100124: stomach
+    100126: stomach_end
+    100128: tale_1
+    100130: tale_2
+    100132: tale_2_end
+    100134: upper_jaw
+    100136: Upper_teeth
+    400000: Armature
+    400002: B_foot.L
+    400004: B_foot.R
+    400006: B_foot_controller.L
+    400008: B_foot_controller.R
+    400010: B_leg.L
+    400012: B_leg.L_end
+    400014: B_leg.R
+    400016: B_leg.R_end
+    400018: B_leg_IK.L
+    400020: B_leg_IK.L_end
+    400022: B_leg_IK.R
+    400024: B_leg_IK.R_end
+    400026: B_toes.L
+    400028: B_toes.L_end
+    400030: B_toes.R
+    400032: B_toes.R_end
+    400034: B_upperleg.L
+    400036: B_upperleg.R
+    400038: Body
+    400040: ear.L
+    400042: ear.L_end
+    400044: ear.R
+    400046: ear.R_end
+    400048: Ears
+    400050: Eyes
+    400052: F_foot.L
+    400054: F_foot.R
+    400056: F_foot_controller.L
+    400058: F_foot_controller.R
+    400060: F_leg.L
+    400062: F_leg.L_end
+    400064: F_leg.R
+    400066: F_leg.R_end
+    400068: F_leg_IK.L
+    400070: F_leg_IK.L_end
+    400072: F_leg_IK.R
+    400074: F_leg_IK.R_end
+    400076: F_toes.L
+    400078: F_toes.L_end
+    400080: F_toes.R
+    400082: F_toes.R_end
+    400084: F_upperleg.L
+    400086: F_upperleg.R
+    400088: head
+    400090: lower_jaw
+    400092: Lower_teeth
+    400094: lower_teeth
+    400096: lower_teeth_end
+    400098: neck
+    400100: nose
+    400102: nose_end
+    400104: pelvis.L
+    400106: pelvis.R
+    400108: //RootNode
+    400110: scapula_1.L
+    400112: scapula_1.R
+    400114: scapula_2.L
+    400116: scapula_2.R
+    400118: spine_1
+    400120: spine_2
+    400122: spine_3
+    400124: stomach
+    400126: stomach_end
+    400128: tale_1
+    400130: tale_2
+    400132: tale_2_end
+    400134: upper_jaw
+    400136: Upper_teeth
+    4300000: Body
+    4300002: Ears
+    4300004: Eyes
+    4300006: Lower_teeth
+    4300008: Upper_teeth
+    7400000: breath
+    7400002: walk
+    7400004: run
+    7400006: blow
+    7400008: roar
+    7400010: smell
+    7400012: look
+    7400014: jump/kill
+    9500000: //RootNode
+    13700000: Body
+    13700002: Ears
+    13700004: Eyes
+    13700006: Lower_teeth
+    13700008: Upper_teeth
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: breath
+      takeName: Armature|ArmatureAction
+      firstFrame: 40
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Armature|ArmatureAction
+      firstFrame: 90
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Armature|ArmatureAction
+      firstFrame: 387
+      lastFrame: 403
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: blow
+      takeName: Armature|ArmatureAction
+      firstFrame: 359
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: roar
+      takeName: Armature|ArmatureAction
+      firstFrame: 280
+      lastFrame: 354
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: smell
+      takeName: Armature|ArmatureAction
+      firstFrame: 470
+      lastFrame: 649
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: look
+      takeName: Armature|ArmatureAction
+      firstFrame: 135
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump/kill
+      takeName: Armature|ArmatureAction
+      firstFrame: 412
+      lastFrame: 435
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/B_foot_controller.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_leg_IK.L/B_leg_IK.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L
+        weight: 1
+      - path: Armature/B_foot_controller.L/B_foot.L/B_toes.L/B_toes.L_end
+        weight: 1
+      - path: Armature/B_foot_controller.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_leg_IK.R/B_leg_IK.R_end
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R
+        weight: 1
+      - path: Armature/B_foot_controller.R/B_foot.R/B_toes.R/B_toes.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_leg_IK.L/F_leg_IK.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L
+        weight: 1
+      - path: Armature/F_foot_controller.L/F_foot.L/F_toes.L/F_toes.L_end
+        weight: 1
+      - path: Armature/F_foot_controller.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_leg_IK.R/F_leg_IK.R_end
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R
+        weight: 1
+      - path: Armature/F_foot_controller.R/F_foot.R/F_toes.R/F_toes.R_end
+        weight: 1
+      - path: Armature/spine_1
+        weight: 1
+      - path: Armature/spine_1/pelvis.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L
+        weight: 1
+      - path: Armature/spine_1/pelvis.L/B_upperleg.L/B_leg.L/B_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/pelvis.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R
+        weight: 1
+      - path: Armature/spine_1/pelvis.R/B_upperleg.R/B_leg.R/B_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/lower_jaw/lower_teeth/lower_teeth_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/neck/head/upper_jaw/nose/nose_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.L/scapula_2.L/F_upperleg.L/F_leg.L/F_leg.L_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R
+        weight: 1
+      - path: Armature/spine_1/spine_2/spine_3/scapula_1.R/scapula_2.R/F_upperleg.R/F_leg.R/F_leg.R_end
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach
+        weight: 1
+      - path: Armature/spine_1/spine_2/stomach/stomach_end
+        weight: 1
+      - path: Armature/spine_1/tale_1
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2
+        weight: 1
+      - path: Armature/spine_1/tale_1/tale_2/tale_2_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Ears
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Lower_teeth
+        weight: 1
+      - path: Upper_teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
