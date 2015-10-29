@@ -12,7 +12,7 @@ public class bearAnimations : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 
 		if(other.gameObject.tag == "Player") {
-			animator.SetInteger("animationCount", 6);
+			EventManager.triggerEvent("jumpAndKill");
 			Debug.Log("KILL");
 		}
 	}

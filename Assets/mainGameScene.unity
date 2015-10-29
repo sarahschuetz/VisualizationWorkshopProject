@@ -459,12 +459,11 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849799236}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81d19061811494065a42edcdaf85ebeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 0628b0b35f0e24424bf8c680fc1c1a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2132063240}
 --- !u!82 &849799239
 AudioSource:
   m_ObjectHideFlags: 0
@@ -549,7 +548,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4.19999981
+  m_Radius: 7.73000002
   m_Center: {x: 0, y: 1.33000004, z: 0}
 --- !u!1 &1060427637
 GameObject:
@@ -2215,11 +2214,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!54 &2132063240 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
-    type: 2}
-  m_PrefabInternal: {fileID: 1073511046}
 --- !u!4 &2132063241 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
