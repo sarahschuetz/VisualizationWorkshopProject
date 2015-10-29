@@ -45,7 +45,10 @@ public class followNavMesh : MonoBehaviour {
 				EventManager.triggerEvent("startFollowing");
 			} else {
 
-				if(following) {
+				if(this.following) {
+
+					Debug.Log("START MOVING");
+					agent.Resume();
 					agent.SetDestination(target.position);
 				}
 			}
@@ -68,8 +71,6 @@ public class followNavMesh : MonoBehaviour {
 	}
 	
 	void startMoving() {
-
-		Debug.Log("START MOVING");
 		this.following = true;;
 	}
 }
